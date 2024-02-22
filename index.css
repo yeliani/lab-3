@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{ 
+
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    height: 100vh;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNDQ0ICA0NBwgICA0HBwcHBw8ICQcNFREWFhURHxMYHSggGBolJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NDysZFRkrNy0rKy0tKy0tKy0rKy0rLSsrKysrLS0rKysrKysrKysrNysrKysrKysrKystKy0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQADAQAAAAAAAAAAAAABAgADBAUG/8QAFxABAQEBAAAAAAAAAAAAAAAAAAERAv/EABoBAQEBAQEBAQAAAAAAAAAAAAIBAAUDBgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APci4IqP1V+yVUVIIqQXpKqKkEVBr0lMVAuC9JTFQRUGvSUxUGKiEqKiYuREqoqJiogVUXERcQVRcRFRhq4qIiogrioiVUrDVynUadYV62o1tRsVotFqbWbDam0WptQpGtRabUWsch1kazFj5iRciYuR0H4pTIuCKkGvSUyKkEXBOUyKkEVBr0lMVBIqI9JTFQQwDlVFRMXGYxUEMQaqKiYqIK4YmGMNXFREMqDVqlQZURcp1GtrIvW1OjWbFaLU6LWXDU2tai1Cka1NrWptQpG1k6zFj5+Kgi5HRc6UyKgioNOUxcTFwacpioIqI9JTDGhgvSUxUEMGnKqGCKElGJimRUMTFRhVFREVERUMqSiKMqdbUTF62xLM2K0anW1GxWi1Oi1lw2pta1NrLBam1rU2ocjaydDFjx4uJi46NciUyKgioJyqioIqJYcpioIYL0lVDBFRDlJgUOPSUwwQjhymKiYUVRgKIYRCyKjJOoitbRraiK1tTrajK0anRrKrRaNTaim0Wi1NrFI1qbWtRaxSFkazFjzZFxMXHScSUxUEVBsKUxUgi4JytFSCKiWHKZDGhg4cphgVEekrFmHDlMIKHKSGFVMCyE6nWRla2p1tRla2p1tbGw6NGtqLjaLRaLUXDam0WptQo1qbWtTWKRtZOsxY6cXExcdN8/KYqCLiFK0VGhg4cpioIqRMOVoqAwacpMEI05TCIUOViClhysQw4cpKTqEWDJjFho1Gwto0Mp0aNFqKdFo1NqLDqbWtTahSNam1rUWocLJ0MuOKKgio6tj5qVUVBFQcKUqgiohSmEKg4crRQhTDlMIKHKxZhw5WII4crMzJYcrMGTDlLaAOFp0MNQjo0VtQm0WjRayw6m1tTqYshtTa1qbUKC1NptRUJtYazLrRUTFx1Xy0qoqJiomFKqKgisHClZUBQpSRChylmKYcrRmYTlZmZMOVmZhw5WDMmFKwZtHDlbQwqHK1o0Ws2FKwtbU0cLWtFrWptTC1rU2tam1sbWtTa1qay62slmxdcsXERcdPHy2qioIqIUpioIpClOGMYmHKxYphSszMmHKzMw4UrMzVMOVgzJhysGA4crVmoQ5WoZNTClNTWFHC1haydbC1tTaybULTqa1qbUXWtRTam1sXRrBmxtdmLiIuOm+Y1UXExcQpTFQRSYUphaFClZiyFKzMyYcrAgSlYEJYcrBmTDlAIo4crBhamFKLRWFqHK1oFotQpW1NrWhMLWtTa1qbUxda1NrWi1sXRU1rU2pi62slmxdd2OSOPlcdJ8zq4uIi4hSrhgioi6TGhYpWYsOFKwIQ5WBoTDlDMEOVqGAlKwAqWHKbU2sEwpWqbWoqHK1qbTU2phSsm1rU6mFK1ota1FqYum1Na1NrYutai1rU2susyWTF16MXyWdF83FxcDIq4uMyEqGMzLCzMhQUMyHBQzCcArMlKChmQ4Km1mE4NSWSlE1NZmOCptZhWJotZmKJtTWZCTU1mbFRamsyKnSzM2v/2Q==) ;
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-attachment: fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+    
+.formulario{
+    background-color: white;
+    height: 650px;
+    width: 420px;
+    border-radius:8px;
+    box-shadow: inset;
+    -webkit-box-shadow:4px 6px 26px -12px  rgb(0,0,0,0.76);
+    -moz-box-shadow:4px 6px 26px -12px rgb(0,0,0,0.76);
+    box-shadow:4px 6px 26px -12px rgb(0,0,0,0.76);
+    
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#icono1, #icono2{
+    height: 25px; 
+    width: 17px;
+    position: absolute;
+    margin-top: -50px;
+}
+.logos img
+{
+height: 30px;
+width: 30px;
+
+}
+.apartado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+ .inputs input {
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 20px 0 20px 0;
+    width: 280px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.boton1 input{
+    height: 40px ;
+    width: 280px;
+    border:none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm_Yv1ghsXfHS7H31G-6tnfpCFScuJ8v2QCg&usqp=CAU);
+    color: rgb(255, 255, 255);
+}
+.boton1 p{
+    margin-top: -15px;
+    margin-right: -10px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+    .logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .logos img {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+.contacto{
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.informacion{
+    padding-top: 80px;
+    text-align: center;
+}
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid black;
+}
